@@ -31,7 +31,7 @@
             dataGridView1 = new DataGridView();
             txtPlanilha = new TextBox();
             btnSelecionarArquivo = new Button();
-            escolherPlanilha = new ComboBox();
+            cmbEscolherPlanilha = new ComboBox();
             btnEscolherPlanilha = new Button();
             btnGravar = new Button();
             btnCancelar = new Button();
@@ -68,13 +68,13 @@
             btnSelecionarArquivo.UseVisualStyleBackColor = true;
             btnSelecionarArquivo.Click += btnSelecionarArquivo_Click;
             // 
-            // escolherPlanilha
+            // cmbEscolherPlanilha
             // 
-            escolherPlanilha.FormattingEnabled = true;
-            escolherPlanilha.Location = new Point(12, 45);
-            escolherPlanilha.Name = "escolherPlanilha";
-            escolherPlanilha.Size = new Size(423, 28);
-            escolherPlanilha.TabIndex = 3;
+            cmbEscolherPlanilha.FormattingEnabled = true;
+            cmbEscolherPlanilha.Location = new Point(12, 45);
+            cmbEscolherPlanilha.Name = "cmbEscolherPlanilha";
+            cmbEscolherPlanilha.Size = new Size(423, 28);
+            cmbEscolherPlanilha.TabIndex = 3;
             // 
             // btnEscolherPlanilha
             // 
@@ -144,7 +144,7 @@
             Controls.Add(btnCancelar);
             Controls.Add(btnGravar);
             Controls.Add(btnEscolherPlanilha);
-            Controls.Add(escolherPlanilha);
+            Controls.Add(cmbEscolherPlanilha);
             Controls.Add(btnSelecionarArquivo);
             Controls.Add(txtPlanilha);
             Controls.Add(dataGridView1);
@@ -160,7 +160,7 @@
         private DataGridView dataGridView1;
         private TextBox txtPlanilha;
         private Button btnSelecionarArquivo;
-        private ComboBox escolherPlanilha;
+        private ComboBox cmbEscolherPlanilha;
         private Button btnEscolherPlanilha;
         private Button btnGravar;
         private Button btnCancelar;
